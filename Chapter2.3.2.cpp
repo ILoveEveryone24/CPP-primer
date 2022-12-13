@@ -7,7 +7,7 @@ void exampleOne()
   int &r = i; //Reference, returns address of where variable i is stored
   std::cout << r << " and " << &r << std::endl;
   int *p; //Declared pointer p
-  std::cout << p << " and " /*<< *p << " and "*/ << &p << std::endl;
+  std::cout << p << " and " << &p << std::endl;
   p = &i; //Pointer p points to reference of i, returns an address of where i is stored
   std::cout << p << " and " << *p << " and " << &p << std::endl;
   *p = x; //Dereferanced pointer p, a.k.a. the value of p is equal to x, it would return 10
